@@ -34,19 +34,21 @@ header > nav{
     border-bottom: 1px solid $noclass-menu-underine;
     a {
       display: inline-block;
-      width: 100%;
-      padding: 0.25em 0.5em;
+      padding: 1em 2em;
       border-bottom: none;
       text-align: center;
         @media (min-width: 40em) {
         display: inline-block;
         text-align: left;
         border-bottom: none;
-        padding-left: 0;
-        padding-right: 0;
       }
       border-bottom: 1px solid $noclass-menu-underine;
+      &:hover{
+        border-bottom:2px solid $noclass-main;
+      }
     }
   position:sticky;
   top:0px;
 }
+
+
